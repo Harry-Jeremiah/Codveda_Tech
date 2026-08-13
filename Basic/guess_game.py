@@ -9,6 +9,8 @@ Objectives:
     Exit the game if the user guesses correctly or after a maximum number of attempts.
 
 """
+
+print("===== GUESS GAME =====")
 #using the random module
 import random
 

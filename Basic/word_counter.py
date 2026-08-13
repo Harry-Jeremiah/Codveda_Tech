@@ -8,7 +8,7 @@ Objectives
     Handle exceptions such as file not found
 
 """
-
+print("===== WORD COUNTER =====")
 try:
     #read the content
     with open("tasks.txt", "r") as file:
