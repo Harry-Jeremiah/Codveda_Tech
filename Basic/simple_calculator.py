@@ -8,7 +8,7 @@ Objectives:
     Handle the division by zero with appropriate error messages
 
 """
-
+print("===== SIMPLE CALCULATOR =====")
 #creating functions for each operation
 def add(number1, number2):
     sum = number1 + number2
