@@ -1,0 +1,90 @@
+BASIC TASKS
+
+Task 1: Simple Calculator 
+    Description: Develop a basic calculator that can perform the four primary arithmetic operations: addition, subtraction, multiplication and division.
+
+Objectives:
+    Create functions for each operation
+    Take two inputs from the user and allow them to select the desired operation
+    Handle the division by zero with appropriate error messages
+
+
+Task 2: Number Guessing Game
+    Description: Write a program that randomly generates a number between 1 and 100. The user has to guess the number, and the program will give feedback if the guess is too high or too low
+
+Objectives:
+    Use the random module that generates a random number
+    Give the user multiple attempts to guess the number
+    Provide appropriate feedback("Too High" or "Too Low")
+    Exit the game if the user guesses correctly or after a maximum number of attempts.
+
+
+Task 3: Word Counter
+    Description: Create a python program that reads a text file and counts the number of words in it.
+
+Objectives
+    Read the content of a file 
+    Split the content into words and counts them
+    Handle exceptions such as file not found
+
+INTERMEDIATE TASKS
+
+Task 1: To-Do List Application
+    Description: Build a simple command-line to-do list application. Users should be able to read, delete, mark as done and list tasks.
+
+Objectives:
+    Implement the ability to add, view, and delete tasks
+    Store the tasks in a file(either CSV or JSON format)
+    Mark tasks as completed
+    Implement basic error handling (trying to delete a task that doesn't exist)a
+
+
+Task 2: Data Scrapper 
+    Description: Develop a web scrapper to extract specific data from a website (eg news headlines, product prices)
+
+Objectives
+    Use requests library to retrieve web page content
+    Parse the HTML using BeautifulSoup
+    Extract specific data such as article titles or product details
+    Save the scrapped data into a CSV file
+
+
+Task 3: API Integration
+    Description: Write a python script that interacts with an external API to fetch and display data (eg weather, cryptocurrency prices)
+
+Objectives
+    Use the requests library to make GET requests to an API 
+    Parse and display the fetched data in a user-friendly format
+    Handle errors such as failed requests or invalid responses.
+
+
+ADVANCED TASKS
+
+Task 1: Django Web Application with Authentication
+    Description: Build a fully functional web application using Django that includes user authentication (login, registration and password reset). The application can be a blog, task manager or e-commerce site.
+
+Objectives:
+    Implement user registration, login and logout functionality.
+    Secure user passwords using Django's in-built authentication system
+    Create user roles (eg admin, regular user) with different permissions
+    Integrate password reset functionality via email
+
+
+Task 2: Basic File Encryption/Decryption
+    Description: Create a python script that encrypts and decrypts text files using simple algorithm (e.g Ceasar cipher or Fernet encryption)
+
+Objectives:
+    Allow the user to input a file for encryption or decryption
+    Encrypt the file content and save it as a new file.
+    Provide functionality to decrypt the file back to its original format
+
+
+Task 3: N-Queens Problem
+    Description: Solve the classic N-Queens program where the goal is to place N queens on a N x N chessboard such that no queens threaten each other
+
+Objectives:
+    Represent the chessboard as a 2D array
+    Use backtracking to place queens one by one in safe positions.
+    Ensure that no two queens are on the same row, column, or diagonal.
+
+Challenge: Designing an efficient backtracking solution and correctly handling constraints
