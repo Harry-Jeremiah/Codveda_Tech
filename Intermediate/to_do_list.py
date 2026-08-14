@@ -12,7 +12,7 @@ Objectives:
 import json
 
 
-print("===== TO-DO LIST =====")
+print("="*15,"TO-DO LIST", "="*15)
 print()
 
 tasks = []
@@ -61,6 +61,7 @@ def view_tasks():
             else:
                 status = "Not complete"
             print(f"{number}. {task['task']} - {status}")
+    print()   
 
 
 #delete tasks
@@ -118,7 +119,7 @@ while True:
 
     print("~"*30)
     print()
-    print("1. Add taks\n2. View tasks\n3. Delete tasks\n4. Mark as complete\n5. Exit\n")
+    print("1. Add tasks\n2. View tasks\n3. Delete tasks\n4. Mark as complete\n5. Exit\n")
     print("~"*30
       )
 
