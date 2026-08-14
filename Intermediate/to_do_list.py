@@ -135,7 +135,6 @@ while True:
         elif choice == 4:
             mark_complete()
         elif choice == 5:
-            print("These are your final tasks.")
             view_tasks()
             break
         else:
