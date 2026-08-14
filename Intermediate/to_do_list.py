@@ -51,6 +51,7 @@ def add_task():
 def view_tasks():
     if len(tasks) == 0:
         print("There are no tasks in the list")
+        return
 
     else:
         print("These are your tasks:")
@@ -64,6 +65,10 @@ def view_tasks():
 
 #delete tasks
 def delete_task():
+    if len(tasks) == 0:
+        print("There are no tasks in the list")
+        return
+    
     view_tasks()
 
     try:
@@ -104,6 +109,8 @@ def mark_complete():
         print("The task is not in the list")
 
 load_tasks()
+
+print(tasks)
 
 while True:
 
