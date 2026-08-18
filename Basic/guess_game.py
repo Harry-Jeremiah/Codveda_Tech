@@ -39,6 +39,8 @@ for attempt in range(attempts):
     except ValueError:
         print("You have to enter a whole number")
 
+    page.update()
+
 else:
     print("You have used all your chances")
     print(f"The right number is {number} ")
